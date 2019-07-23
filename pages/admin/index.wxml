@@ -1,0 +1,5 @@
+<!--pages/admin/index.wxml-->
+<view>
+  <navigationBar fontSize="18px" backEvent="{{true}}" bind:back="backEvent" backHomeEvent="{{true}}" bind:backHome="backEvent" id="navigationBar" color="{{color}}" title="{{title}}" back="{{true}}" background="{{barBg}}"></navigationBar>
+  <text>{{title}}</text>
+</view>

@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/admin/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "red",
+    "navigationBarTitleText": "lrg-blog",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/list.png",
+        "selectedIconPath": "images/list.png",
+        "text": "组件"
+      },
+      {
+        "pagePath": "pages/admin/index",
+        "iconPath": "images/list.png",
+        "selectedIconPath": "images/list.png",
+        "text": "接口"
+      }
+    ]
+  }
+}
