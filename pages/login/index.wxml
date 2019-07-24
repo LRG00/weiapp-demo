@@ -1,0 +1,6 @@
+<view id="login">
+<view  class="welcome">欢迎登录</view>
+<button class='bottom' type='primary' open-type="getUserInfo" withCredentials="true" lang="zh_CN" bindgetuserinfo="wxGetUserInfo">
+    授权登录
+</button>
+</view>

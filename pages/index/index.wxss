@@ -1,4 +1,19 @@
-.intro {
-  margin: 30px;
-  text-align: center;
+.post {
+  margin-bottom: 120rpx;
+}
+.card {
+  background: #fff;
+  width: 80%;
+  margin: 20rpx auto;
+  border-radius: 10rpx;
+  padding: 30rpx;
+}
+.card .title {
+  font-size: 35rpx;
+  font-weight: 500;
+}
+.card .time {
+  font-size: 25rpx;
+  font-weight: 400;
+  color: #b3b3b3;
 }

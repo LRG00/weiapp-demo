@@ -1,61 +1,39 @@
-<view class="intro">
-
+<view class="post">
   <navigationBar id="navigationBar" fontSize="18px" title="{{title}}" color="{{color}}" back="{{false}}" background="{{barBg}}"></navigationBar>
-  组件1
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
-  <view>2{{title}}</view>
+  <view class="card">
+    <view class="title">
+       如何在阿里云ubantu14.04安装nginx 
+      <view class="time">
+         2019-07-11  发布人：leeruigan
+      </view>
+    </view>
+    <view class="content">
+      正大；大卡司看到的撒大所大时代阿达大厦撒扣篮大赛看懂就啊了；的克拉斯；打算困了但是卡了；迪卡乐；的打傻了；打开啊； 打傻了；澳康达的按时间烤了多久奥斯卡大几啊是考虑打算离开的骄傲是
+    </view>
+    <image src="../../images/admin-select.png"></image>
+  </view>
+  <view class="card">
+    <view class="title">
+       如何在阿里云ubantu14.04安装nginx 
+      <view class="time">
+         2019-07-11  发布人：leeruigan
+      </view>
+    </view>
+    <view class="content">
+      正大；大卡司看到的撒大所大时代阿达大厦撒扣篮大赛看懂就啊了；的克拉斯；打算困了但是卡了；迪卡乐；的打傻了；打开啊； 打傻了；澳康达的按时间烤了多久奥斯卡大几啊是考虑打算离开的骄傲是
+    </view>
+    <image src="../../images/admin-select.png"></image>
+  </view>
+  <view class="card">
+    <view class="title">
+       如何在阿里云ubantu14.04安装nginx 
+      <view class="time">
+         2019-07-11  发布人：leeruigan
+      </view>
+    </view>
+    <view class="content">
+      正大；大卡司看到的撒大所大时代阿达大厦撒扣篮大赛看懂就啊了；的克拉斯；打算困了但是卡了；迪卡乐；的打傻了；打开啊； 打傻了；澳康达的按时间烤了多久奥斯卡大几啊是考虑打算离开的骄傲是
+    </view>
+    <image src="../../images/admin-select.png"></image>
+  </view>
 </view>

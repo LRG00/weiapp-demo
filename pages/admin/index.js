@@ -31,6 +31,10 @@ Page({
       })
     }
   },
+  goLogin: function(event) {
+    console.log(event)
+    wx.navigateTo({url: '/pages/login/index'})
+  },
   onLoad: function() {
 
   },

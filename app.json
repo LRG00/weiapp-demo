@@ -1,7 +1,9 @@
 {
   "pages": [
+    "pages/login/index",
     "pages/index/index",
     "pages/admin/index",
+    "pages/post/index",
     "pages/logs/logs"
   ],
   "window": {
@@ -31,5 +33,6 @@
         "text": "接口"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

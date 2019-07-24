@@ -1,6 +1,27 @@
 //app.js
+let serverData = [];
+for(let i = 1; i < 25; i++){
+  serverData.push({id:i, name:i})
+}
 App({
   onLaunch: function () {
+    wx.requestTest = ({data:{page,size},success}) => {
+      setTimeout(
+        () => {
+          //模拟网络返回请求
+          let res = {
+            data:{
+              data:{
+                rows: serverData.slice((page - 1) * size, size + (page - 1) * size)
+              },
+              result: true,
+            }
+          }
+          console.log(res)
+          success(res)
+        },1000//模拟网络延迟
+      )
+    }
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
